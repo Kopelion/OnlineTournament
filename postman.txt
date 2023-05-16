@@ -1,0 +1,77 @@
+post
+http://localhost:3000/api/match
+body
+raw
+json
+
+{
+    "date_match": "01.06.2023",
+    "time_match": "18:00",
+    "idplayer1": "1",
+    "idplayer2": "1",
+    "idplayer3": "1",
+    "idplayer4": "1",
+    "idplayer5": "1"
+}
+
+//
+
+post
+http://localhost:3000/api/player
+body
+raw
+json
+
+{
+    "lastname": "Alex",
+    "firstname": "Alex",
+    "patronymic": "Alex",
+    "age": "20",
+    "game_nickname": "Alex"
+}
+
+//
+
+post
+http://localhost:3000/api/organizer
+body
+raw
+json
+
+{
+    "lastname": "Новиков",
+    "firstname": "Дмитрий",
+    "patronymic": "Александрович",
+    "address_organizer": "Витебск",
+    "telephone": "+375(29)000-00-00",
+    "mail": "mail@mail.by"
+}
+
+post
+http://localhost:3000/api/results
+body
+raw
+json
+
+{
+    "id_organizer": "1",
+    "id_tournament": "1",
+    "number_matches": "1",
+    "id_player_winner": "1"
+}
+
+//
+
+post
+http://localhost:3000/api/tournament
+body
+raw
+json
+
+{
+    "name_tournament": "Test",
+    "date_start": "01.05.2023",
+    "date_end": "01.05.2023",
+    "prize_fund": "1000$",
+    "sponsor": "MSI"
+}

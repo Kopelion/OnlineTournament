@@ -1,0 +1,26 @@
+{
+  "name": "onlinetournament",
+  "version": "1.0.0",
+  "description": "Organization of online tournaments (Rest API)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "js",
+    "api",
+    "rest",
+    "api",
+    "postgresql"
+  ],
+  "author": "Novikov",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
